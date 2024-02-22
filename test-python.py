@@ -74,9 +74,9 @@ class Library:
         """ Return all books by category """
         [b for b in self.get_books() if b.get_author() = author]
 
-    def get_books_by_category(self, category: str):
+    def get_books_by_category(self, Category: str):
         """ Return all books in category """
-        return [b for b in self.get_books() if b.get_category() = category]
+        return [b for b in self.get_books() if b.get_category() = Category]
 
     def get_available_books_by_category(self, category: str):
         """ Return all available books depending on its category """
